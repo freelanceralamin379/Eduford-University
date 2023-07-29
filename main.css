@@ -219,7 +219,6 @@ nav .fa-bars{
 
 .campus-section{
     margin-top: 100px;
-    margin-bottom:80px;
     text-align: center;
 }
 .campus-box{
@@ -231,6 +230,7 @@ nav .fa-bars{
 }
 .campus-box img{
     display: block;
+    width: 100%;
 }
 
 .hover-text{
@@ -281,6 +281,9 @@ nav .fa-bars{
 
 /* Campus section style end  */
 
+
+/* Course section responsive style start */
+
 @media (max-width:640px) {
     .campus-row{
         flex-direction: column;
@@ -298,3 +301,131 @@ nav .fa-bars{
         
     }
 }
+/* Course section responsive style end */
+
+
+/* Facilitise section style start  */
+
+.facilitise-section{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.facilitise-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+.facilitise-box{
+    flex-basis:32%;
+}
+.facilitise-box img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+.facilitise-layer{
+    text-align: justify;
+    margin-top: 20px;
+}
+.facilitise-layer h3{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.facilitise-layer p{
+    font-size: 14px;
+    color:#666;
+    font-weight: 500;
+    margin-top:10px;
+    
+}
+/* Facilitise section style end  */
+
+
+/* Facilitise section responsive style start */
+@media (max-width:640px) {
+    .facilitise-row{
+        flex-direction: column;
+    }
+    .facilitise-layer{
+        margin-bottom:20px;
+    }
+    
+}
+
+/* Facilitise section responsive style end */
+
+
+/* Testiminials section responsive style start */
+.testimonials-section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:80px;
+}
+.testimonials-row{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials-box{
+    display: flex;
+    flex-basis: 49%;
+    background-color: #f5e8e8;
+    padding: 20px;
+    border-radius: 12px;
+}
+.testimonials-images{
+    flex-basis: 35%;
+    padding:0 20px;
+    
+}
+.testimonials-images img{
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.testimonials-layer{
+    text-align: justify;
+    margin-left: 50px;
+}
+.testimonials-layer p{
+    color:#666;
+    font-size: 14px;
+    height: 42%;
+}
+.testimonials-layer h3{
+    font-weight: 400;
+    margin: 30px 0 20px;
+}
+.testimonials-layer i{
+    color:#e23719;
+}
+
+/* Testiminials section responsive style start */
+
+
+/* Testiminials section responsive style start */
+@media (max-width:640px) {
+    .testimonials-row{
+        flex-direction: column;
+    }
+    .testimonials-box{
+        margin-bottom: 20px;
+    }
+    .testimonials-images{
+        padding: 0px 10px;
+    }
+    .testimonials-images img{
+        height: 60px;
+    }
+    .testimonials-layer p{
+        height: auto;
+    }
+    .testimonials-layer{
+        margin-left:10px;
+    }
+}
+
+
+/* Testiminials section responsive style end */
