@@ -266,7 +266,7 @@ nav .fa-bars{
 .hover-text p{
     
     position:absolute;
-    bottom: 40%;
+    bottom: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:#fff;
