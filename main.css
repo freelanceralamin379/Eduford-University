@@ -107,6 +107,7 @@ nav .fa-bars{
     padding:12px 34px;
     background-color:transparent;
     transition: .5s;
+    border-radius: 5px;
 }
 .hero-btn:hover{
     background-color:#d14007fd;
@@ -361,7 +362,6 @@ nav .fa-bars{
 .testimonials-section{
     text-align: center;
     margin-top: 100px;
-    margin-bottom:80px;
 }
 .testimonials-row{
     margin-top:80px;
@@ -426,6 +426,108 @@ nav .fa-bars{
         margin-left:10px;
     }
 }
-
-
 /* Testiminials section responsive style end */
+
+
+
+/* Contact us section style start  */
+.contact_us{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/banner2.jpg");
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:100px;
+    border-radius: 20px;
+}
+.course-center{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-enroll{
+    text-align: center;
+    color: #fff;
+}
+.course-enroll h2{
+    font-size: 40px;
+    /* line-height: 100px; */
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing:1px;
+}
+
+/* Contact us section style end  */ 
+
+
+/*  Footer  section style sart  */
+
+
+.about-us{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.social-icon{
+    margin: 40px 0 25px;
+}
+
+.social-icon a{
+    font-size: 30px;
+    padding:20px;
+    color: #666;
+    transition:0.5s;
+}
+.social-icon .fa-facebook:hover{
+    color:#3b5998;
+}
+.social-icon .fa-twitter:hover{
+    color:#00acee;
+}
+.social-icon .fa-instagram:hover{
+    color:#cd486b;
+}
+.social-icon .fa-linkedin:hover{
+    color:#0a66c2;
+}
+footer > i{
+    position:fixed;
+    top: 30px;
+    right:30px;
+    font-size: 50px;
+    z-index:3;
+}
+footer > a{
+    display: block;
+    position:fixed;
+    bottom: 30px;
+    right:30px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #e23719;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+/*  Footer  section style end  */ 
+
+@media (max-width:640px) {
+    footer > i{
+        font-size:25px;
+        top:30px;
+    }
+    
+}
+
+
+
+
+
